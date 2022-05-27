@@ -1,0 +1,42 @@
+body
+{
+background:linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  		   linear-gradient(205deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  		   linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+  	       linear-gradient(50deg, #ECEDDC 25%, transparent 25%);
+  	       background-size: 100px 100px;
+ 	       background-color: #0cebbf;
+}
+canvas
+{
+	border: 5px ridge whitesmoke;
+	box-shadow: 5px 5px 5px black;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.heading
+{
+	width: 80%;
+	font-size: 130%;
+}
+.note
+{
+	font-size: smaller;
+	color: black;
+}
+#input_id
+{
+	width: 30%;
+}
+
+.maker
+{
+	font-family: 'Grape Nuts', cursive;
+	font-size: 40px;
+	bottom: 0;
+	color:rgb(255, 0, 0);
+	font-weight: bolder;
+	position: fixed;
+	line-height: 1;
+	margin-left: 430px;
+}
